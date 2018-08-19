@@ -2,7 +2,6 @@ library(shiny)
 library(ggplot2)
 library(GGally)
 
-# Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   
   output$clustPlot <- renderPlot({
